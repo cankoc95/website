@@ -1,45 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-   <style type="text/css">
-     p {
-     font-size : 14px;
-     color: blue
-     }
-     </style>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
- 
-    <title>Sign-In</title>
+    <meta name="" content="">
+    <meta name="Can Koc" content="">
+    <title>Can Koc</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="http://getbootstrap.com/dist/css/bootstrap.css"> 
+    <link href="bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" type="text/css" media="screen" href="http://getbootstrap.com/examples/signin/signin.css">
-    </head>
+    <link href="navbar.css" rel="stylesheet">
+
+  </head>
 
   <body>
 
     <div class="container">
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Me</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">github</a></li>
+            <li><a href="#">linkedIn</a></li>
+            <li><a href="#">twitter</a></li>
+            </ul>
+          <ul class="nav navbar-nav navbar-right">
+          </ul>
+        </div>
+      </div>
 
-      <form class="form-signin" role="form">
-        <h2 class="form-signin-heading">Please sign in!!!</h2>
-        <input type="text" class="form-control" placeholder="Email address" required autofocus>
-        <input type="password" class="form-control" placeholder="Password" required>
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me"> Remember me
-        </label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
+      <div class="jumbotron">
+        <h1>Hi there, I'm Can</h1>
+        <p>I am an undergraduate student at Berkeley studying Electrical Engineering and Computer Science. Well, actions speak better than words
+        so feel free to check out my webpage and things i've been working on.</p>
+        <p>
+          <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">My Resume &raquo;</a>
+        </p>
+      </div>
 
-    </div> <!-- /container -->
-
-    <p>Go Bears!!</p>
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    </div> 
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../Downloads/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
